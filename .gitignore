@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+# keep real lab data out of the repo
+data/*
+!data/example_reporter_assay.xlsx

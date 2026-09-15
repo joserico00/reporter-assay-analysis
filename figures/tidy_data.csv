@@ -1,0 +1,39 @@
+replicate,label,value,condition,dose,dose_level
+1,TF-A 25 ng,1.8,TF-A,25 ng,1
+2,TF-A 25 ng,1.843,TF-A,25 ng,1
+3,TF-A 25 ng,1.761,TF-A,25 ng,1
+1,TF-A 50 ng,2.229,TF-A,50 ng,2
+2,TF-A 50 ng,2.313,TF-A,50 ng,2
+3,TF-A 50 ng,2.21,TF-A,50 ng,2
+1,TF-A 100 ng,2.914,TF-A,100 ng,3
+2,TF-A 100 ng,3.211,TF-A,100 ng,3
+1,TF-B 25 ng,1.426,TF-B,25 ng,1
+2,TF-B 25 ng,1.559,TF-B,25 ng,1
+3,TF-B 25 ng,1.543,TF-B,25 ng,1
+1,TF-B 50 ng,1.916,TF-B,50 ng,2
+2,TF-B 50 ng,1.759,TF-B,50 ng,2
+3,TF-B 50 ng,1.896,TF-B,50 ng,2
+1,TF-B 100 ng,2.322,TF-B,100 ng,3
+2,TF-B 100 ng,1.963,TF-B,100 ng,3
+3,TF-B 100 ng,2.119,TF-B,100 ng,3
+1,TF-A + TF-B 12.5 ng each,2.205,TF-A + TF-B,12.5 ng each,1
+2,TF-A + TF-B 12.5 ng each,2.332,TF-A + TF-B,12.5 ng each,1
+3,TF-A + TF-B 12.5 ng each,2.217,TF-A + TF-B,12.5 ng each,1
+1,TF-A + TF-B 25 ng each,3.729,TF-A + TF-B,25 ng each,2
+2,TF-A + TF-B 25 ng each,3.415,TF-A + TF-B,25 ng each,2
+3,TF-A + TF-B 25 ng each,3.882,TF-A + TF-B,25 ng each,2
+1,TF-A + TF-B 50 ng each,5.164,TF-A + TF-B,50 ng each,3
+2,TF-A + TF-B 50 ng each,5.024,TF-A + TF-B,50 ng each,3
+3,TF-A + TF-B 50 ng each,4.073,TF-A + TF-B,50 ng each,3
+1,GFP control 25 ng,0.957,GFP control,25 ng,1
+2,GFP control 25 ng,0.996,GFP control,25 ng,1
+3,GFP control 25 ng,1.009,GFP control,25 ng,1
+1,GFP control 50 ng,0.921,GFP control,50 ng,2
+2,GFP control 50 ng,1.01,GFP control,50 ng,2
+3,GFP control 50 ng,0.968,GFP control,50 ng,2
+1,GFP control 100 ng,0.889,GFP control,100 ng,3
+2,GFP control 100 ng,1.031,GFP control,100 ng,3
+3,GFP control 100 ng,0.889,GFP control,100 ng,3
+1,Reporter only 100 ng,0.997,Reporter only,100 ng,1
+2,Reporter only 100 ng,1.071,Reporter only,100 ng,1
+3,Reporter only 100 ng,0.953,Reporter only,100 ng,1
