@@ -14,8 +14,8 @@ I originally wrote this to help a biology PhD student analyze transcription fact
    - bar chart (mean ± SD) of all conditions with replicate points overlaid
    - boxplot of replicate distributions
    - side-by-side comparison of all conditions at each dose level (low / medium / high), including combinations like `12.5 ng each`
-4. **Tests** each condition against the baseline with Welch's t-test
-5. **Exports** tidy data, summary and statistics to CSV and figures to PNG
+4. **Tests** each condition against the baseline: a one-way ANOVA across all groups, Dunnett's test for the many-against-one comparisons, and an unadjusted Welch's t-test beside it
+5. **Exports** figures to `figures/` as PNG, and tidy data, summary and statistics to `results/` as CSV
 
 <p align="center">
   <img src="figures/dose_level_3.png" width="480" alt="Comparison of conditions at the highest dose level">
@@ -45,9 +45,9 @@ DATA_FILE = "data/your_assay.xlsx"   # your spreadsheet
 BASELINE = "Reporter only"           # reference condition for fold change and statistics
 ```
 
-Then run all cells. Results are written to `figures/`.
+Then run all cells. Figures are written to `figures/` and CSVs to `results/`, both regenerated on every run.
 
-> **Note on statistics:** with 2–3 replicates per group, p-values are rough indicators. For publication, consider a one-way ANOVA with a post-hoc test (e.g. Dunnett's) and multiple-comparison correction.
+> **Note on statistics:** significance comes from Dunnett's test, which compares each condition with the baseline and corrects for making all those comparisons at once. The unadjusted Welch's t-test is reported next to it, and the two can disagree in either direction — Dunnett's pools the spread of every group, so a condition with few replicates borrows confidence from the rest of the plate, while Welch's uses only that group's own spread. With 2–3 replicates per group, treat either p-value as a rough indicator of which effects deserve more replicates.
 
 ## Built with
 

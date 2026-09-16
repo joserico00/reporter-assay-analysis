@@ -1,7 +1,10 @@
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-openpyxl
-jupyter
+# Minimum versions the notebook relies on:
+#   seaborn 0.13 - the errorbar="sd" argument used by the bar charts
+#   scipy 1.11   - scipy.stats.dunnett, the post-hoc test in section 6
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+scipy>=1.11
+openpyxl>=3.1
+jupyter>=1.0
