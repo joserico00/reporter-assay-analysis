@@ -56,3 +56,7 @@ Python · pandas · seaborn · matplotlib · SciPy · Jupyter
 ## Author
 
 Jose E. Rodriguez Rios
+
+## License
+
+MIT — see [LICENSE](LICENSE).
